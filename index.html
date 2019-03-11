@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+  <title> Fake Youtube </title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 class="headerTitle lato"> Fake YouTube </h1>
+  </header>
+  <main>
+    <form class="searchForm lato">
+      <fieldset>
+        <label for="searchBox"> Search your video: </label>
+        <input id="searchBox" class="searchBox" type="text" />
+        <button type="submit" class="submitButton btn">
+          Search
+        </button>
+      </fieldset>
+    </form>
+    <div class="divButtons lato">
+      <button type="submit" class="previousVideos btn" disabled>
+        Previous
+      </button>
+      <button type="submit" class="nextVideos btn" disabled>
+        Next
+      </button>
+    </div>
+  </main>
+  <div class="separator"></div>
+  <section class="results">
+  </section>
+</body>
+
+</html>

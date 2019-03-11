@@ -1,0 +1,58 @@
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+
+.btn{
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.headerTitle{
+  float:left;
+  margin-left: 40px;
+}
+
+.searchForm{
+  float: left;
+  padding: 20px 30px;
+}
+
+.divButtons{
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.nextVideos{
+  float: right;
+}
+
+.separator{
+  border: 3px solid black;
+  border-radius: 4px;
+  margin: 30px;
+}
+
+.videoImg{
+  float: left;
+}
+
+.videoTitle{
+  float: left;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.videoItem{
+  height: 100px;
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 3px;
+  background-color: #e6e6fa;
+  margin: 10px 0px;
+}
+
+.results{
+  width: 80%;
+  margin: auto;
+}
